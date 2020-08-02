@@ -1,4 +1,4 @@
-const { response } = require('express');
+// const { response } = require('express');
 
 const $animalForm = document.querySelector('#animal-form');
 
@@ -28,8 +28,7 @@ const handleAnimalFormSubmit = event => {
   }
   const animalObject = { name, species, diet, personalityTraits };
   
-  };
-
+  
   fetch('/api/animals', {
     method: 'POST',
     headers: {
@@ -48,5 +47,6 @@ const handleAnimalFormSubmit = event => {
     console.log(postResponse);
     alert('Thank you for adding an animal!');
   });
+};
 
 $animalForm.addEventListener('submit', handleAnimalFormSubmit);
