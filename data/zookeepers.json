@@ -59,6 +59,36 @@
       "age": 64,
       "favoriteAnimal": "Rabbit",
       "id": "9"
+    },
+    {
+      "name": "finnley",
+      "age": 8,
+      "favoriteAnimal": "mouse",
+      "id": "10"
+    },
+    {
+      "name": "tuckerbo",
+      "age": 6,
+      "favoriteAnimal": "rabbit",
+      "id": "11"
+    },
+    {
+      "name": "ashlynn",
+      "age": 22,
+      "favoriteAnimal": "tucker",
+      "id": "12"
+    },
+    {
+      "name": "fgad",
+      "age": 456,
+      "favoriteAnimal": "awefa",
+      "id": "13"
+    },
+    {
+      "name": "ryanne",
+      "age": 27,
+      "favoriteAnimal": "doggo",
+      "id": "14"
     }
   ]
 }
