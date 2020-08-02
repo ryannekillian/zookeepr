@@ -144,6 +144,15 @@
         "anxious"
       ],
       "id": "14"
+    },
+    {
+      "name": "tucker blue",
+      "species": "dog",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "loving"
+      ],
+      "id": "15"
     }
   ]
 }
