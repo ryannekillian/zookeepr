@@ -1,10 +1,12 @@
 const router = require("express").Router();
+
 const {
   filterByQuery,
   findById,
   createNewZookeeper,
   validateZookeeper,
 } = require("../../lib/zookeepers");
+
 const { zookeepers } = require("../../data/zookeepers");
 
 router.get("/zookeepers", (req, res) => {
